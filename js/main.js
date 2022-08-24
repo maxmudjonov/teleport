@@ -27,3 +27,12 @@ const swiper = new Swiper('.swiper', {
       el: false,
     },
   });
+
+
+let elHeader = document.querySelector(".header")
+let elBtn = document.querySelector(".header__button")
+
+elBtn.addEventListener("click", function() {
+  elHeader.classList.toggle("active-nav")
+  
+})
